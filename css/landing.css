@@ -290,6 +290,11 @@ nav .menu a {
     color: #001931;
 }
 
+.benefit-container img {
+    max-width: 600px;
+    max-height: 600px;
+}
+
 #benefit .benefit-main{
     max-width: 700px;
     display: flex;
