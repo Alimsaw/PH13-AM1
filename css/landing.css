@@ -167,9 +167,8 @@ nav .menu a {
 }
 
 #container3 {
-    padding: 70px 120px 0 120px;
+    padding: 70px 120px 120px 120px;
     background-color: #fbfbfb;
-    padding-bottom: 500px;
 
 }
 
@@ -234,4 +233,53 @@ nav .menu a {
     line-height: 20px;
     text-align: center;
 
+}
+
+#benefit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    gap: 60px;
+
+}
+
+#benefit .benefit-main .benefit-spec {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+#benefit .benefit-main .benefit-spec .pp{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    text-transform: uppercase;
+}
+
+#benefit .benefit-main .benefit-spec .ppp{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+#benefit .benefit-main .benefit-spec h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: #001931;
+}
+
+#benefit .benefit-main{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefit-list {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
 }
