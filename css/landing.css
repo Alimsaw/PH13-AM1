@@ -157,3 +157,81 @@ nav .menu a {
     vertical-align: middle;
 
 }
+
+.box img {
+    display: flex;
+    flex-direction: column;
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#container3 {
+    padding: 70px 120px 0 120px;
+    background-color: #fbfbfb;
+    padding-bottom: 500px;
+
+}
+
+#container3 .container3-container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.container3-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 44px;
+}
+
+.container3-heading h2{
+    color: #001931;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.container3-heading p{
+    color: #627382;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#container3 .allbox {
+    display: flex;
+    gap: 24px;
+
+}
+
+#container3 .allbox .box{
+    box-shadow: 0 0 8 #66000000;
+    background-color: #ffffff;
+    width: 322px;
+    height: 300px;
+    padding: 22px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+
+}
+
+
+#container3 .allbox .box h3 {
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#container3 .allbox .box p{
+    color: #627382;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+}
